@@ -1,0 +1,10 @@
+# Program to Sum Numbers
+
+print('Please input two numbers')  # Asks to input two numbers
+num_a = int(input('Enter first number: '))  # Asks for first number
+num_b = int(input('Enter second number: '))  # Asks for second number
+result = num_a + num_b  # Adding num_a + num_b
+if result <= 100:
+    print('They add up to: ', result)  # 100 or less it adds up result
+else:
+    print('They add up to a big number')  # Above 100 says adds to big number
